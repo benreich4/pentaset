@@ -157,7 +157,7 @@ $(document).ready(function() {
     renderDeck(existingCards);
     incrementSetCounter();
 
-    $(".card").click(function() {
+    $(".card").on("mousedown", function() {
         $(this).toggleClass("selected")
         if($(".card.selected").length == 3) {
             if(isSet($(".card.selected").toArray())) {

@@ -168,7 +168,5 @@ $(document).ready(function() {
         }
     }
 
-    $(".card").on("touchstart", cardTouched);
-    $(".card").on("click", cardTouched);
-
+    $(".card").bind("touchstart mousedown", cardTouched);
 })

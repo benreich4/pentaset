@@ -9,7 +9,7 @@ a {
 
 .row 
 {
-  height: 18vh;
+  height: 22vh;
 }
 
 .shape
@@ -21,8 +21,8 @@ a {
 {
     border: solid 1px #aaa;
     border-radius: 9px;
-    width: 10vh;
-    height: 15vh;
+    width: 12vh;
+    height: 19vh;
     float:left;
     padding: 3px 3px 3px 3px;
     margin: 5px;

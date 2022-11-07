@@ -7,10 +7,10 @@ a {
   color: #00B7FF;
 }
 
-/*.row 
+.row 
 {
-  height: 25%;
-}*/
+  height: 18vh;
+}
 
 .shape
 {
@@ -21,8 +21,8 @@ a {
 {
     border: solid 1px #aaa;
     border-radius: 9px;
-    width: 20%;
-    height: 30%;
+    width: 10vh;
+    height: 15vh;
     float:left;
     padding: 3px 3px 3px 3px;
     margin: 5px;

@@ -157,7 +157,9 @@ $(document).ready(function() {
     renderDeck(existingCards);
     incrementSetCounter();
 
-    function cardTouched() {
+
+    $(".card").bind("touchstart mousedown", function(e) {
+        e.preventDefault()
         $(this).toggleClass("selected")
         if($(".card.selected").length == 3) {
             if(isSet($(".card.selected").toArray())) {
@@ -166,7 +168,5 @@ $(document).ready(function() {
                 incrementSetCounter();
             }
         }
-    }
-
-    $(".card").bind("touchstart mousedown", cardTouched);
+    });
 })

@@ -9,13 +9,13 @@ a {
 
 .row 
 {
-  height: 19vh;
+  height: 20vh;
 }
 
 .shape
 {
-  margin: 5%;
-  margin-left: 12.5%;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 .deck .card
 {
@@ -66,17 +66,17 @@ a {
 
 .card .shape.red 
 {
-  border: solid 2px darkred;
+  border: solid 4px darkred;
 }
 
 .card .shape.blue 
 {
-  border: solid 2px darkblue;
+  border: solid 4px darkblue;
 }
 
 .card .shape.green 
 {
-  border: solid 2px green;
+  border: solid 4px green;
 }
 
 
@@ -109,7 +109,7 @@ a {
 
 .card .shape {
   width: 75%;
-  height: 27%;
+  height: 23%;
 }
 
 .card .rect
@@ -130,8 +130,8 @@ a {
 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
   height: 100%;
-  width: 90%;
-  margin-left: 5%;
+  width: 85%;
+  margin-left: 7%;
 }
 
 .card.powderBlue .triangle.empty .inner-shape

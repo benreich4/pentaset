@@ -1,0 +1,180 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.row 
+{
+  height: 25%;
+}
+
+.shape
+{
+  margin: 5%;
+  margin-left: 12.5%;
+}
+.deck .card
+{
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    width: 100px;
+    height: 150px;
+    float:left;
+    padding: 3px 3px 3px 3px;
+    margin: 5px;
+}
+
+.deck .card.tan 
+{
+    background-color: tan;
+
+}
+
+.deck .card.powderBlue 
+{
+    background-color: powderBlue;
+
+}
+
+.deck .card.silver 
+{
+    background-color: lightgray;
+
+}
+
+.deck .card.white 
+{
+    background-color: white;
+}
+
+.card2
+{
+    width: 50px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    border:solid 3px;
+}
+
+.card .shape.red 
+{
+  border: solid 2px darkred;
+}
+
+.card .shape.blue 
+{
+  border: solid 2px darkblue;
+}
+
+.card .shape.green 
+{
+  border: solid 2px green;
+}
+
+
+.card .shape.red.full {
+  background:  darkred;
+}
+
+.card .shape.blue.full {
+  background:  darkblue;
+}
+
+.card .shape.green.full {
+  background:  green;
+}
+
+.card .shape.red.stripe {
+  background-image: linear-gradient(45deg, #8b0000 25%, #ffffff 25%, #ffffff 50%, #8b0000 50%, #8b0000 75%, #ffffff 75%, #ffffff 100%);
+  background-size: 14.14px 14.14px;
+}
+
+.card .shape.blue.stripe {
+  background-image: linear-gradient(45deg, #00008b 25%, #ffffff 25%, #ffffff 50%, #00008b 50%, #00008b 75%, #ffffff 75%, #ffffff 100%);
+  background-size: 14.14px 14.14px;
+}
+
+.card .shape.green.stripe {
+  background-image: linear-gradient(45deg, #008000 25%, #ffffff 25%, #ffffff 50%, #008000 50%, #008000 75%, #ffffff 75%, #ffffff 100%);
+  background-size: 14.14px 14.14px;
+}
+
+.card .shape {
+  width: 75%;
+  height: 27%;
+}
+
+.card .rect
+{
+}
+
+.card .oval
+{
+    border-radius: 50%;
+}
+
+.card .triangle 
+{
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.card .triangle.empty .inner-shape
+{
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  height: 100%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.card.powderBlue .triangle.empty .inner-shape
+{
+  background: powderBlue;
+}
+
+.card.silver .triangle.empty .inner-shape
+{
+  background: lightgray;
+}
+
+.card.tan .triangle.empty .inner-shape
+{
+  background: tan;
+}
+
+.card .triangle.red
+{
+  background: darkred;
+}
+
+.card .triangle.green
+{
+  background: green;
+}
+
+.card .triangle.blue
+{
+  background: darkblue;
+}
+
+.card.selected 
+{
+  box-shadow: 0px 0px 5px 5px yellow;
+}
+
+.card .shapes-num-1
+{
+  margin-top: 50%;
+}
+.card .shapes-num-2
+{
+  margin-top: 30%;
+}
+

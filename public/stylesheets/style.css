@@ -9,7 +9,7 @@ a {
 
 .row 
 {
-  height: 19.5vh;
+  height: 21.5vh;
 }
 
 .shape
@@ -22,7 +22,7 @@ a {
     border: solid 1px #aaa;
     border-radius: 9px;
     width: 12vh;
-    height: 18vh;
+    height: 20vh;
     float:left;
     padding: 3px 3px 3px 3px;
     margin-left: 5px;
@@ -216,10 +216,20 @@ a {
 
 .card .shapes-num-1
 {
-  margin-top: 50%;
+  margin-top: 60%;
 }
 .card .shapes-num-2
 {
-  margin-top: 30%;
+  margin-top: 36%;
 }
+.card .shapes-num-3
+{
+  margin-top: 12%;
+}
+
+.card .shapes
+{
+  margin-left:  5%;
+}
+
 

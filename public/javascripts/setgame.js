@@ -55,8 +55,7 @@ $(document).ready(function() {
         let innerShape = document.createElement("div");
         let shape = document.createElement("div");
         let shapes = document.createElement("div");
-        shapes.className = "shapes"
-        shapes.className = "shapes-num-" + card.Number;
+        shapes.className = "shapes shapes-num-" + card.Number;
         el.className = "card " + card.Background;
         shape.className = "shape " + card.Shape + " " + card.Color + " " + card.Fill;
         

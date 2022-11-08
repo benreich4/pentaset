@@ -66,17 +66,17 @@ a {
 
 .card .shape.red 
 {
-  border: solid 0.9vh darkred;
+  border: solid 1vh darkred;
 }
 
 .card .shape.blue 
 {
-  border: solid 0.9vh darkblue;
+  border: solid 1vh darkblue;
 }
 
 .card .shape.green 
 {
-  border: solid 0.9vh green;
+  border: solid 1vh green;
 }
 
 
@@ -114,17 +114,17 @@ a {
 .card .triangle.empty .inner-shape
 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  height: 115%;
-  width: 85%;
-  margin-left: 0.5vh;
+  height: 105%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .card .triangle.stripe .inner-shape
 {
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  height: 115%;
-  width: 85%;
-  margin-left: 0.5vh;
+  height: 105%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .card.tan .stripe.red .inner-shape {

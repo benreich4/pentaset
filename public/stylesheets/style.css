@@ -9,7 +9,7 @@ a {
 
 .row 
 {
-  height: 16vh;
+  height: 17vh;
 }
 
 .shape
@@ -25,7 +25,7 @@ a {
     height: 15vh;
     float:left;
     padding: 3px 3px 3px 3px;
-    margin: 5px;
+    margin-left: 5px;
 }
 
 .deck .card.tan 

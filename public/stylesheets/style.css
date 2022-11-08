@@ -92,36 +92,6 @@ a {
   background:  green;
 }
 
-.card .shape.red.stripe.rect {
-  background-image: linear-gradient(45deg, #8b0000 25%, #ffffff 25%, #ffffff 50%, #8b0000 50%, #8b0000 75%, #ffffff 75%, #ffffff 100%);
-  background-size: 3vh 3vh;
-}
-
-.card .shape.blue.stripe.rect {
-  background-image: linear-gradient(45deg, #00008b 25%, #ffffff 25%, #ffffff 50%, #00008b 50%, #00008b 75%, #ffffff 75%, #ffffff 100%);
-  background-size: 3vh 3vh;
-}
-
-.card .shape.green.stripe.rect {
-  background-image: linear-gradient(45deg, #008000 25%, #ffffff 25%, #ffffff 50%, #008000 50%, #008000 75%, #ffffff 75%, #ffffff 100%);
-  background-size: 3vh 3vh;
-}
-
-.card .shape.red.stripe.circle {
-  background-image: linear-gradient(45deg, #8b0000 25%, #ffffff 25%, #ffffff 50%, #8b0000 50%, #8b0000 75%, #ffffff 75%, #ffffff 100%);
-  background-size: 3vh 3vh;
-}
-
-.card .shape.blue.stripe.circle {
-  background-image: linear-gradient(45deg, #00008b 25%, #ffffff 25%, #ffffff 50%, #00008b 50%, #00008b 75%, #ffffff 75%, #ffffff 100%);
-  background-size: 3vh 3vh;
-}
-
-.card .shape.green.stripe.circle {
-  background-image: linear-gradient(45deg, #008000 25%, #ffffff 25%, #ffffff 50%, #008000 50%, #008000 75%, #ffffff 75%, #ffffff 100%);
-  background-size: 3vh 3vh;
-}
-
 .card .shape {
   width: 70%;
   height: 17%;
@@ -157,19 +127,57 @@ a {
   margin-left: 0.5vh;
 }
 
-.card .triangle.stripe.red .inner-shape {
-  background-image: linear-gradient(45deg, #8b0000 25%, #ffffff 25%, #ffffff 50%, #8b0000 50%, #8b0000 75%, #ffffff 75%, #ffffff 100%);
-  background-size: 3vh 3vh;
-}
-.card .triangle.stripe.blue .inner-shape {
-  background-image: linear-gradient(45deg, #00008b 25%, #ffffff 25%, #ffffff 50%, #00008b 50%, #00008b 75%, #ffffff 75%, #ffffff 100%);
+.card.tan .stripe.red .inner-shape {
+  background-image: linear-gradient(45deg, #8b0000 25%, #D2B48C 25%, #D2B48C 50%, #8b0000 50%, #8b0000 75%, #D2B48C 75%, #D2B48C 100%);
   background-size: 3vh 3vh;
 }
 
-.card .triangle.stripe.green .inner-shape {
-  background-image: linear-gradient(45deg, #008000 25%, #ffffff 25%, #ffffff 50%, #008000 50%, #008000 75%, #ffffff 75%, #ffffff 100%);
+.card.tan .stripe.blue .inner-shape {
+  background-image: linear-gradient(45deg, #00008b 25%, #D2B48C 25%, #D2B48C 50%, #00008b 50%, #00008b 75%, #D2B48C 75%, #D2B48C 100%);
   background-size: 3vh 3vh;
 }
+
+.card.tan .stripe.green .inner-shape {
+  background-image: linear-gradient(45deg, #008000 25%, #D2B48C 25%, #D2B48C 50%, #008000 50%, #008000 75%, #D2B48C 75%, #D2B48C 100%);
+  background-size: 3vh 3vh;
+}
+
+.card.silver .stripe.red .inner-shape {
+  background-image: linear-gradient(45deg, #8b0000 25%, #d3d3d3 25%, #d3d3d3 50%, #8b0000 50%, #8b0000 75%, #d3d3d3 75%, #d3d3d3 100%);
+  background-size: 3vh 3vh;
+}
+.card.silver .stripe.blue .inner-shape {
+  background-image: linear-gradient(45deg, #00008b 25%, #d3d3d3 25%, #d3d3d3 50%, #00008b 50%, #00008b 75%, #d3d3d3 75%, #d3d3d3 100%);
+  background-size: 3vh 3vh;
+}
+
+.card.silver .stripe.green .inner-shape {
+  background-image: linear-gradient(45deg, #008000 25%, #d3d3d3 25%, #d3d3d3 50%, #008000 50%, #008000 75%, #d3d3d3 75%, #d3d3d3 100%);
+  background-size: 3vh 3vh;
+}
+
+.card.powderBlue .stripe.red .inner-shape {
+  background-image: linear-gradient(45deg, #8b0000 25%, #b0e0e6 25%, #b0e0e6 50%, #8b0000 50%, #8b0000 75%, #b0e0e6 75%, #b0e0e6 100%);
+  background-size: 3vh 3vh;
+}
+.card.powderBlue .stripe.blue .inner-shape {
+  background-image: linear-gradient(45deg, #00008b 25%, #b0e0e6 25%, #b0e0e6 50%, #00008b 50%, #00008b 75%, #b0e0e6 75%, #b0e0e6 100%);
+  background-size: 3vh 3vh;
+}
+
+.card.powderBlue .stripe.green .inner-shape {
+  background-image: linear-gradient(45deg, #008000 25%, #b0e0e6 25%, #b0e0e6 50%, #008000 50%, #008000 75%, #b0e0e6 75%, #b0e0e6 100%);
+  background-size: 3vh 3vh;
+}
+
+.card .inner-shape {
+  width: 100%;
+  height: 100%;
+}
+.card .oval .inner-shape {
+  border-radius: 50%;
+}
+
 
 .card.powderBlue .triangle.empty .inner-shape
 {

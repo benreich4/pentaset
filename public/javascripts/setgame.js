@@ -51,12 +51,13 @@ $(document).ready(function() {
         }
     }
 
-    function renderCard(el, card) {
+    function renderCard(el, card, tmp) {
         let innerShape = document.createElement("div");
         let shape = document.createElement("div");
         let shapes = document.createElement("div");
         shapes.className = "shapes shapes-num-" + card.Number;
-        el.className = "card " + card.Background;
+        el.className = "card " + card.Background + " " + (tmp ? "tmp" : "");
+
         shape.className = "shape " + card.Shape + " " + card.Color + " " + card.Fill;
         
         el.setAttribute("background", card.Background);
@@ -101,12 +102,17 @@ $(document).ready(function() {
 
     function replace(cards) {
         cards.forEach(function(card) {
-            $(".card.selected").each(function(i, c) { 
-                shuffle(deck)
-                c.innerHTML = ""
-                renderCard(c, deck[0]);
-            })
-        })
+            shuffle(deck)
+            card.innerHTML = ""
+            renderCard(card, deck[0], true);
+        });
+        
+
+        if (numSets() == 0) {
+            replace($(".card.tmp").toArray())
+        } else {
+            $(".card.tmp").removeClass("tmp")
+        }
         // sync()
     }
 

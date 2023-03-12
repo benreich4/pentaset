@@ -171,6 +171,8 @@ $(document).ready(function() {
                 replace($(".card.selected").toArray())
                 incrementSet();
                 incrementSetCounter();
+            } else {
+                $(".card.selected").removeClass("selected");
             }
         }
     });

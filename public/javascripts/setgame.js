@@ -76,7 +76,7 @@ $(document).ready(function() {
 
     function renderDeck(deck){
         document.getElementById("deck").innerHTML = "";
-        $(".set-counter").html("1")
+        $(".set-counter").html("0 sets found")
         for(let i = 0; i < 4; i++)
         {
             let row = document.createElement("div");
@@ -93,7 +93,7 @@ $(document).ready(function() {
 
     function incrementSet() {
         let n = parseInt($(".set-counter").html(),10);
-        $(".set-counter").html(n + 1);
+        $(".set-counter").html(n + 1 + " sets found");
     }
 
     function incrementSetCounter() {
